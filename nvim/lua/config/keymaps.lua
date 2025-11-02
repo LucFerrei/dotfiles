@@ -15,4 +15,4 @@ vim.keymap.set("n", ":", ";", { noremap = true, silent = true, desc = "Repetir b
 vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true, desc = "Sair do Modo Inserção" })
 
 -- Opcional: Mapear 'kj' também
--- vim.keymap.set('i', 'kj', '<Esc>', { noremap = true, silent = true, desc = 'Sair do Modo Inserção' })
+vim.keymap.set("i", "kj", "<Esc>", { noremap = true, silent = true, desc = "Sair do Modo Inserção" })
